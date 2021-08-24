@@ -1,5 +1,5 @@
 {
-  "name": "myexpressapp",
+  "name": "power-wellness-api",
   "version": "1.0.0",
   "description": "Sample Node.js express app",
   "main": "app.js",
