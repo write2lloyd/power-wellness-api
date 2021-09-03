@@ -1,6 +1,6 @@
 module.exports.home = {
   logoWithName: '',
-  // logoWithName: 'https://via.placeholder.com/274x49',
+  // logoWithName: 'https://via.placeholder.com/274x50',
   announcements: [
     {
       thumbnail: 'https://via.placeholder.com/60x60',
