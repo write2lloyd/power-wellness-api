@@ -1,66 +1,127 @@
 module.exports.home = {
-  "logoWithName": "https://fakeimg.pl/274x49",
-  "annoucements": [
+  logoWithName: '',
+  // logoWithName: 'https://via.placeholder.com/274x50',
+  announcements: [
     {
-      "thumbnail": "https://fakeimg.pl/60x60",
-      "title": "xyz announcement",
-      "desc": "xyz description",
-      "from": "2021-08-22T20:25:09+0000",
-      "to": "2021-08-22T20:25:09+0000"
+      thumbnail: 'https://via.placeholder.com/60x60',
+      extendedThumbnail: 'https://via.placeholder.com/363x200',
+      title: 'xyz announcement',
+      desc: 'xyz description',
+      from: '2021-08-22T20:25:09+0000',
+      to: '2021-08-22T20:25:09+0000',
+      url: 'https://google.com',
     },
     {
-      "thumbnail": "https://fakeimg.pl/60x60",
-      "title": "abc announcement",
-      "desc": "abc description",
-      "from": "2021-08-22T20:25:09+0000",
-      "to": "2021-08-22T20:25:09+0000"
+      thumbnail: 'https://via.placeholder.com/60x60',
+      extendedThumbnail: 'https://via.placeholder.com/363x200',
+      title: 'abc announcement',
+      desc: 'abc description',
+      from: '2021-08-22T20:25:09+0000',
+      to: '2021-08-22T20:25:09+0000',
+      url: 'https://google.com',
     },
     {
-      "thumbnail": "https://fakeimg.pl/60x60",
-      "title": "pqr announcement",
-      "desc": "pqr description",
-      "from": "2021-08-22T20:25:09+0000",
-      "to": "2021-08-22T20:25:09+0000"
-    }
+      thumbnail: 'https://via.placeholder.com/60x60',
+      extendedThumbnail: 'https://via.placeholder.com/363x200',
+      title: 'pqr announcement',
+      desc: 'pqr description',
+      from: '2021-08-22T20:25:09+0000',
+      to: '2021-08-22T20:25:09+0000',
+      url: 'https://google.com',
+    },
   ],
-  "tiles": [
+  tiles: [
     {
-      "order": 1,
-      "title": "Member Login",
-      "desc": "Manage your account",
-      "icon": "face",
-      "url": "www.google.com",
-      "backgroundColor": "#efcced"
+      order: 1,
+      title: 'Member Login',
+      desc: 'Manage your account',
+      icon: 'badge',
+      url: 'www.google.com',
+      backgroundColor: '#9EE09E',
     },
     {
-      "order": 2,
-      "title": "Schedule",
-      "desc": "calendar updates",
-      "icon": "schedule",
-      "url": "www.google.com",
-      "backgroundColor": "#efcced"
+      order: 2,
+      title: 'Schedule',
+      desc: 'Calendar updates',
+      icon: 'event-available',
+      url: 'www.google.com',
+      backgroundColor: '#CC99C9',
     },
     {
-      "order": 3,
-      "title": "Facebook",
-      "desc": "Follow us on Facebook",
-      "icon": "schedule",
-      "url": "www.google.com",
-      "backgroundColor": "#efcced"
+      order: 3,
+      title: 'Facebook',
+      desc: 'Follow us on Facebook',
+      icon: 'facebook',
+      url: 'www.google.com',
+      backgroundColor: '#4267B2',
     },
     {
-      "order": 4,
-      "title": "Card",
-      "desc": "Your membership",
-      "icon": "qr_code_scanner",
-      "url": "www.google.com",
-      "backgroundColor": "#efcced"
-    }
+      order: 4,
+      title: 'Card',
+      desc: 'Your membership',
+      icon: 'qr-code-scanner',
+      url: 'www.google.com',
+      backgroundColor: '#FEB144',
+    },
+    {
+      order: 5,
+      title: 'Occupancy',
+      desc: 'Center Occupancy',
+      icon: 'people',
+      url: 'www.google.com',
+      backgroundColor: '#88C0FC',
+    },
+    {
+      order: 6,
+      title: 'Contact',
+      desc: 'Contact and Hours',
+      icon: 'contact-page',
+      url: 'www.google.com',
+      backgroundColor: '#FF6663',
+    },
   ],
-  "config": {
-    "primaryColor": "#796AC6",
-    "secondaryColor": "#FEB144",
-    "primaryTextColor": "#ffffff",
-    "secondaryTextColor": "#000000"
-  }
+  services: [
+    {
+      thumbnail: 'https://via.placeholder.com/80x80',
+      title: 'Personal Training',
+      url: 'https://google.com',
+      phone: '1234567890',
+    },
+    {
+      thumbnail: 'https://via.placeholder.com/80x80',
+      title: 'Group Exercise',
+      url: 'https://google.com',
+      phone: '1234567890',
+    },
+    {
+      thumbnail: 'https://via.placeholder.com/80x80',
+      title: 'Aquatic Program',
+      url: 'https://google.com',
+      phone: '1234567890',
+    },
+    {
+      thumbnail: 'https://via.placeholder.com/80x80',
+      title: 'Child Care',
+      url: 'https://google.com',
+      phone: '1234567890',
+    },
+    {
+      thumbnail: 'https://via.placeholder.com/80x80',
+      title: 'Massage Therapy',
+      url: 'https://google.com',
+      phone: '1234567890',
+    },
+    {
+      thumbnail: 'https://via.placeholder.com/80x80',
+      title: 'Nutritional Counseling',
+      url: 'https://google.com',
+      phone: '1234567890',
+    },
+  ],
+  config: {
+    primaryColor: '#796AC6',
+    secondaryColor: '#FEB144',
+    primaryTextColor: '#000000',
+    secondaryTextColor: '#FFFFFF',
+  },
 };
