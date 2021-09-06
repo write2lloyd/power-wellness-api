@@ -118,6 +118,57 @@ module.exports.home = {
       phone: '1234567890',
     },
   ],
+  contactAndHours: {
+    centerName: 'Nothwestern Medicine Delnor Health & Fitness Center',
+    socialMediaLinks: {
+      facebookLink: 'https://facebook.com',
+      twitterLink: 'https://twitter.com',
+    },
+    hours: [
+      {
+        day: 'Monday',
+        start: '5:00 am',
+        end: '9:00 pm',
+      },
+      {
+        day: 'Tuesday',
+        start: '5:00 am',
+        end: '9:00 pm',
+      },
+      {
+        day: 'Wednesday',
+        start: '5:00 am',
+        end: '9:00 pm',
+      },
+      {
+        day: 'Thursday',
+        start: '5:00 am',
+        end: '9:00 pm',
+      },
+      {
+        day: 'Friday',
+        start: '5:00 am',
+        end: '7:00 pm',
+      },
+      {
+        day: 'Saturday',
+        start: '7:00 am',
+        end: '3:00 pm',
+      },
+      {
+        day: 'Sunday',
+        start: '10:00 am',
+        end: '2:00 pm',
+      },
+    ],
+    address: {
+      fullAddress: '296 Randall Roadl, Geneva, IL 60134',
+      googleMapsLink: '',
+    },
+    phoneNumber: '6309389000',
+    email: 'info@delnorhfc.com',
+    website: 'https://www.delnorhfc.com/',
+  },
   config: {
     primaryColor: '#796AC6',
     secondaryColor: '#FEB144',
