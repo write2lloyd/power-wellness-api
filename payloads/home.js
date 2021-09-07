@@ -3,7 +3,7 @@ module.exports.home = {
   // logoWithName: 'https://via.placeholder.com/274x50',
   announcements: [
     {
-      thumbnail: 'https://via.placeholder.com/60x60',
+      thumbnail: 'https://via.placeholder.com/65x65',
       extendedThumbnail: 'https://via.placeholder.com/363x200',
       title: 'xyz announcement',
       desc: 'xyz description',
@@ -12,7 +12,7 @@ module.exports.home = {
       url: 'https://google.com',
     },
     {
-      thumbnail: 'https://via.placeholder.com/60x60',
+      thumbnail: 'https://via.placeholder.com/65x65',
       extendedThumbnail: 'https://via.placeholder.com/363x200',
       title: 'abc announcement',
       desc: 'abc description',
@@ -21,7 +21,7 @@ module.exports.home = {
       url: 'https://google.com',
     },
     {
-      thumbnail: 'https://via.placeholder.com/60x60',
+      thumbnail: 'https://via.placeholder.com/65x65',
       extendedThumbnail: 'https://via.placeholder.com/363x200',
       title: 'pqr announcement',
       desc: 'pqr description',
@@ -119,9 +119,10 @@ module.exports.home = {
     },
   ],
   contactAndHours: {
-    centerName: 'Nothwestern Medicine Delnor Health & Fitness Center',
+    centerName: 'Nothwestern Medicine',
+    branchName: 'Delnor Health & Fitness Center',
     socialMediaLinks: {
-      facebookLink: 'https://facebook.com',
+      facebookLink: 'https://www.facebook.com/delnorhfc/',
       twitterLink: 'https://twitter.com',
     },
     hours: [
@@ -162,13 +163,57 @@ module.exports.home = {
       },
     ],
     address: {
-      fullAddress: '296 Randall Roadl, Geneva, IL 60134',
-      googleMapsLink: '',
+      fullAddress: '296 S Randall Road, Geneva, IL 60134',
+      googleMapsLink: 'https://goo.gl/maps/EG1iAJrdSWif69fm8',
     },
-    phoneNumber: '6309389000',
+    phoneNumber: '630.938.9000',
     email: 'info@delnorhfc.com',
     website: 'https://www.delnorhfc.com/',
   },
+  notifications: [
+    {
+      title: 'Lorem ipsum dolor sit amet consectetur',
+      notificationMessage:
+        'Lorem One ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsa minima rem nemo debitis incidunt dignissimos, molestias quis enim numquam.',
+      image: 'https://via.placeholder.com/65x65',
+      link: null,
+    },
+    {
+      title: null,
+      notificationMessage:
+        'Lorem Two ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsa minima rem nemo debitis incidunt dignissimos, molestias quis enim numquam.',
+      image: 'https://via.placeholder.com/65x65',
+      link: 'https://google.com',
+    },
+    {
+      title: 'Lorem ipsum dolor sit amet consectetur',
+      notificationMessage:
+        'Lorem Three ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsa minima rem nemo debitis incidunt dignissimos, molestias quis enim numquam.',
+      image: 'https://via.placeholder.com/65x65',
+      link: null,
+    },
+    {
+      title: null,
+      notificationMessage:
+        'Lorem Four ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsa minima rem nemo debitis incidunt dignissimos, molestias quis enim numquam.',
+      image: 'https://via.placeholder.com/65x65',
+      link: 'https://google.com',
+    },
+    {
+      title: 'Lorem ipsum dolor sit amet consectetur',
+      notificationMessage:
+        'Lorem Five ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsa minima rem nemo debitis incidunt dignissimos, molestias quis enim numquam.',
+      image: 'https://via.placeholder.com/65x65',
+      link: null,
+    },
+    {
+      title: null,
+      notificationMessage:
+        'Lorem Six ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsa minima rem nemo debitis incidunt dignissimos, molestias quis enim numquam.',
+      image: 'https://via.placeholder.com/65x65',
+      link: 'https://google.com',
+    },
+  ],
   config: {
     primaryColor: '#796AC6',
     secondaryColor: '#FEB144',
